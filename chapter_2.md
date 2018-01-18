@@ -109,7 +109,11 @@ a=b+c
 
 a=(b+c)
 Going to add b and c then store it in a
+
 g=(h/i)
 
 (r+s)=(t*u)
 will not work because it will try to store an integer into an integer
+
+!=
+The exclamation point stands for not (not equal)
