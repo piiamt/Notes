@@ -25,7 +25,7 @@ Problem:
   Start this with pseudocode
   
 #### Variables
-These are named places to hold information in your program.  The informaiton can be of different types: a char, a sequenc of characters (String), an integer, a number with a decimal (Float), a list, a dictionary, a grid of one of these types.
+These are named places to hold information in your program.  The informaiton can be of different types: a char, a sequence of characters (String), an integer, a number with a decimal (Float), a list, a dictionary, a grid of one of these types.
 
 Each variable is like a pad of sticky notes.  You can write on the front sheet, and when you want, you can rip that sheet off, and write something (possibly different) on the newly exposed sheet.  The variable name holds the information on the currently showing sticky note.
 
@@ -103,3 +103,5 @@ How do we approach stoping a loop?  The most common is to use a variable to coun
 The book describes this and two other methods of using a loops test to stop the computer from going into the loop again.
 
 ##### Combining these control structures:
+
+What is git add/ git commit/ git push?*
