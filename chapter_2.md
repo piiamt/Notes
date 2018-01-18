@@ -30,7 +30,7 @@ These are named places to hold information in your program.  The informaiton can
 Each variable is like a pad of sticky notes.  You can write on the front sheet, and when you want, you can rip that sheet off, and write something (possibly different) on the newly exposed sheet.  The variable name holds the information on the currently showing sticky note.
 
 #### Operators
-You are familar with multiple binary operators (meaingin they work on two items at once).  Multiplication * , Division / , Addition + , Subtraction - .
+You are familar with multiple binary operators (meaning in they work on two items at once).  Multiplication * , Division / , Addition + , Subtraction - .
 
 Does order mater with the operands of an operator?  (the order of the items that are passed to the operator?)
 
@@ -103,6 +103,3 @@ How do we approach stoping a loop?  The most common is to use a variable to coun
 The book describes this and two other methods of using a loops test to stop the computer from going into the loop again.
 
 ##### Combining these control structures:
-
-#:D#
-gitadd
