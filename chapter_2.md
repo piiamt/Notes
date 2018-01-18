@@ -104,3 +104,10 @@ The book describes this and two other methods of using a loops test to stop the 
 
 ##### Combining these control structures:
 
+a=b+c
+=, + are both operators
+a=(b+c)
+Going to add b and c then store it in a
+g=(h/i)
+(r+s)=(t*u)
+will not work because it will try to store an integer into an integer
