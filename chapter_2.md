@@ -114,5 +114,5 @@ The book describes this and two other methods of using a loops test to stop the 
 
 What is git add/ git commit/ git push?*
 
-# PSEUDO CODE EXAMPLE IN CLASS 1/24
+### PSEUDO CODE EXAMPLE IN CLASS 1/24
 
