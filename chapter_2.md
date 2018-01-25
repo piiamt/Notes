@@ -118,15 +118,15 @@ will not work because it will try to store an integer into an integer
 !=
 The exclamation point stands for not (not equal)
 
-Start
+Start-> set the time for the first person to know to 0.
 
 Find all people that know about the meeting.
 
 Find all edges from these peopple that connect to people who don't know about the meeting
 
-Pick the edge with the least cost and add it to our set of edges
+Pick the edge (where it's cost plus the time it takes to get to the edge has) the least cost and add it to our set of edges
 
-Add the newly connected person to our set of individuals who know about the meeting
+Add the newly connected person to our set of individuals who know about the meeting (and set the time calculated in the previous step as the minimum time it takes for this person to know about the meeting)
 
 If all people know about the meeting
 
