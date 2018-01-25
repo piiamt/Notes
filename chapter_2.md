@@ -117,3 +117,19 @@ will not work because it will try to store an integer into an integer
 
 !=
 The exclamation point stands for not (not equal)
+
+Start
+
+Find all people that know about the meeting.
+
+Find all edges from these peopple that connect to people who don't know about the meeting
+
+Pick the edge with the least cost and add it to our set of edges
+
+Add the newly connected person to our set of individuals who know about the meeting
+
+If all people know about the meeting
+
+Yes-> Print out set of edges
+
+No-> Back to Start
