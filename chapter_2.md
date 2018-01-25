@@ -113,3 +113,6 @@ The book describes this and two other methods of using a loops test to stop the 
 ##### Combining these control structures:
 
 What is git add/ git commit/ git push?*
+
+# PSEUDO CODE EXAMPLE IN CLASS 1/24
+
