@@ -37,7 +37,7 @@ If they are complex, then we need to break them down further.  As an example thi
         \   /                 v
          \ /          +---------------+
           |           | Statement 1   |
-          |           +---------------+
+       No |           +---------------+
           v                   |
 +-----------------+           v
 | Statement 3     |   +---------------+
@@ -47,4 +47,17 @@ If they are complex, then we need to break them down further.  As an example thi
           +-------------------+
           |
           v
+~~~
+
+This translates into the code:
+~~~
+if( counter == 5 )
+{
+   Statement 1
+   Statement 2
+}
+else
+{
+   Statement 3
+}
 ~~~
