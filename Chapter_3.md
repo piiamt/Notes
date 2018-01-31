@@ -6,7 +6,7 @@ In this chapter we will start coding and talking about how the various portions 
 
 We have been using three things in our flowcharts:
 
-##### statements:
+##### Statements:
 ~~~
 +---------------------------+
 | Decrease the counter by 1 |
@@ -25,4 +25,26 @@ system.out.print("Hello");
 ~~~
 If they are complex, then we need to break them down further.  As an example think of the statements in my algorithm where I asked does everyone know about the meeting.
 
-##### conditionals:
+##### Conditionals:
+~~~
+          |
+          |
+          v
+         / \
+        /   \       Yes
+   if our counter \-----------+
+      equals 5    /           |
+        \   /                 v
+         \ /          +---------------+
+          |           | Statement 1   |
+          |           +---------------+
+          v                   |
++-----------------+           v
+| Statement 3     |   +---------------+
++-----------------+   | Statement 2   |
+          |           +---------------+
+          |                   |
+          +-------------------+
+          |
+          v
+~~~
