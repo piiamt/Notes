@@ -68,3 +68,35 @@ Any time we have an edge going back to a previous step, we have a loop.  Thi is 
 
 When we have a loop either it has a conditional in it somewhere that has oneoption tht leaves the loop, or we have a never ending, infinate loop.  We don't want infinate loops, so I'm going to assume that you have such a conditional in the sequence of steps that is repeated, similar to below:
 ~~~
+          |
+          v
+  +---------------+
+  | Statement 5   |
+  +---------------+
+          |
++-------->|
+|         |
+|         v
+| +---------------+
+| | Statement 6   |
+| +---------------+
+|         |
+|         v
+|        / \
+|       /   \          Yes      +---------------+
+|   if temp is less \ --------->| Statement 9   |
+|      than 50      /           +---------------+
+|       \   /                           |
+|        \ /                            |
+|         | No                          |
+|         v                             |
+| +---------------+                     |
+| | Statement 7   |                     |
+| +---------------+                     |
+|         |                             |
+|         v                             |
+| +---------------+                     |
++-| Statement 8   |                     |
+  +---------------+                     |
+                                        v
+  ~~~
