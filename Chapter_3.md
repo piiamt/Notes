@@ -100,3 +100,17 @@ When we have a loop either it has a conditional in it somewhere that has oneopti
   +---------------+                     |
                                         v
   ~~~
+
+For this we will wait to start the loop until we get to the conditional, then we will create a loop with the exit condition:
+
+~~~
+Statement 5
+Statement 6
+while( temp >= 50 )
+{
+   Statement 7
+   Statement 8
+   Statement 6
+}
+Statement 9
+~~~
