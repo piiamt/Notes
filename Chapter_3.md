@@ -138,3 +138,22 @@ or it can be used with any test:
 
 note the parenthesis here to indicate what we want the oppisite truth value of (parenthesis still evaluate before the not opperator.)
 
+How could you write the above "temp is less than 50" test other than changing the less than opperator?
+
+
+So you may be asking "What do I do if things get more complicated?"  For example what if you needed to test if a value was less than 10 or greater than 90?
+
+There are multiple ways to do this, but to introduce you to one more tool for tests, I'm going to choose the method that is closest to what was written:
+* (value < 10) || (value > 90)
+
+There are two of these opperators:
+* || logical OR.  If the item on either side is true, then return true, otherwise return false.
+* && logical AND.  Only when the item on both sides is true, return true, otherwise return false.
+
+
+This allows us to build up some wild sentances and translate them into logic:
+If it is not the case that either the sky is blue or the water is red.
+
+becomes:
+if( !( (sky == blue) || (water == red) ) )
+
