@@ -114,3 +114,27 @@ while( temp >= 50 )
 }
 Statement 9
 ~~~
+
+Note that with this condition we had to invert it, as the written test in the flowchart tested to exit the loop, not stay in it.
+
+#### Tests
+How can we test things in conditionals and loops?
+
+When we test something we want the result to be true or false.  We know of some of these and use them regularly:
+* <  less than
+* >  greater than
+* == is equal to
+* <= less than or equal to
+* >= greater than or equal to
+
+What if we need something to not be one of these things?  For that we have a not opperator: 
+* !
+
+it can be used with the is equal to opperator to modifyit:
+* != is not equal to
+
+or it can be used with any test:
+* !( 5 > 8 )
+
+note the parenthesis here to indicate what we want the oppisite truth value of (parenthesis still evaluate before the not opperator.)
+
