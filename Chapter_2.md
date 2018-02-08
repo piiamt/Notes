@@ -25,41 +25,49 @@ Problem:
   Start this with pseudocode
   
 #### Variables
-These are named places to hold information in your program.  The informaiton can be of different types: a char, a sequenc of characters (String), an integer, a number with a decimal (Float), a list, a dictionary, a grid of one of these types.
+These are named places to hold information in your program.  The informaiton can be of different types: a char, a sequence of characters (String), an integer, a number with a decimal (Float), a list, a dictionary(include array and etc) , a grid of one of these types.
 
 Each variable is like a pad of sticky notes.  You can write on the front sheet, and when you want, you can rip that sheet off, and write something (possibly different) on the newly exposed sheet.  The variable name holds the information on the currently showing sticky note.
 
 #### Operators
-You are familar with multiple binary operators (meaingin they work on two items at once).  Multiplication * , Division / , Addition + , Subtraction - .
+You are familar with multiple binary operators (meaning in they work on two items at once).  Multiplication * , Division / , Addition + , Subtraction - . Modulo(%) is used instead of division (/) when dealing with int because if there is a decimal it is trunkated(cutout)
 
-Does order mater with the operands of an operator?  (the order of the items that are passed to the operator?)
+Does order matter with the operands of an operator?  (the order of the items that are passed to the operator?)
 
 If we are only able to use integers for the above operations, what piece of information are we loosing when we store the answer back to an integer?  The operator to get this info with one step is the % operator.
 
 We have a special operator, it is the assignment operator.  This is the operator that removes the top sheet of the stickynote pad and writes a value on the next sheet.  In Java we will use a single equals sign to indicate this.  In your book they use a left pointing arrow in pseudocode to represent this.  You can probably guess that a variable must be on the left side (the sticky note pad we are going to place a value on for later use), and a value of the appropriate type on the right hand side.
 
-if all letters in the next lines are integers, is the folowing valid, why:
+if all letters in the next lines are integers, is the following valid, why:
   * a = b + c
-  * g = h / i
-  * r + s = t * u
+  	when evaluating the statement above the addition is done first (all of the rules of operand is done) and assignment done last
+		as it process it does the following a=(b+c)
+  **g = h / i
+  	Same as first *
+	
+  *** r + s = t * u
+  	INVAILD- does not work
 
 There are other operators that we will talk about as the class progresses.
 
 ##### testing operators
-There are operators that return true or false instead of a numeric value.  Many of these you are already familar with, and most are binary (take two operands):
-  * <     less than
-  * >     greater than
-  * <=    less than or equal to
-  * >=    greater than  or equal to
-  * ==    equal to
-  * !=    not equal to
+There are operators that return true or false instead of a numeric value.  Many of these you are already familar with, and most are BINARY (take two operands):
+  (1) <     less than
+  (2) >     greater than
+  (3) <=    less than or equal to
+  (4) >=    greater than  or equal to
+  (5) ==    equal to
+  (6) !=    not equal to
   
 You can also combine logic tests together with the operators:
-  * &&    'and' returns true if the items on either side are both true
-  * ||    'or'  returns true if at least one of the items on it's sides is true.
+  (7) &&    'and' returns true if the items on either side are both true
+  (8) ||    'or'  returns true if at least one of the items on it's sides is true.
   
-Finally our first unary operator (meaning it only takes one operand)
-  * !     'not' returns false if the operand following it is ture, and returns true if that operand is false
+Finally our first UNARY operator (meaning it only takes one operand)
+  * !     'not' returns false if the operand following it is true, and returns true if that operand is false
+  	** Can be used to negate statements 
+		ie: !(a==5) reads as return true for a not equal to 5
+		
   
 #### Tracing a program
 This is a skill that helps you track down what is happening during a program to find why it is not giving you the result you expected it to.
@@ -71,7 +79,7 @@ We will start by doing this on paper, and as we get towards coding, we will lear
 #### Input and Output
 A computer is a great tool, and it can do a lot.  However if we can't communicate with it, it does us little good.
 
-This is just trying to make you aware that we need tha ability to provide informaiton to our programs, and for our programs to provide inforamiotn back to us if we want the programs to truely be useful.
+This is just trying to make you aware that we need tha ability to provide informaiton to our programs, and for our programs to provide information back to us if we want the programs to truely be useful.
 
 For the sake of flowcharts, you can use the words input and output (print) for these steps.  The book also uses these terms in it's fomalized pseudocode examples.
 
@@ -83,7 +91,7 @@ We can string these above steps together, but we need ways to only do the steps 
   * if - else          same as the if, but has a second porion of code that is followed only if the test is not true.
   * if - else if       Same as if-else, however only runs the second poriton if the first test if false and a second is true.
   
-How to determin which to use?  Partially practice, and being *lazy*.
+How to determine which to use?  Partially practice, and being *lazy*.
 
 Write out an example of a program that gives an indication of a kid of what they should wear based upon the tempature.
 
@@ -103,4 +111,8 @@ How do we approach stoping a loop?  The most common is to use a variable to coun
 The book describes this and two other methods of using a loops test to stop the computer from going into the loop again.
 
 ##### Combining these control structures:
+
+What is git add/ git commit/ git push?*
+
+### PSEUDO CODE EXAMPLE IN CLASS 1/24
 
